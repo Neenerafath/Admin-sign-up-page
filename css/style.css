@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: url(../images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Merienda', cursive;
+}
+
+.register-section {
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    background-color: #b6414be6;
+    padding: 20px;
+}
+
+.register-section h2 {
+    text-transform: uppercase;
+    padding: 60px 0 0 0;
+    font-size: 1.3em;
+    color: #1f141c;
+}
+
+.register-section p {
+    margin: 0;
+    font-size: 0.8em;
+    color: #431b2b;
+}
+
+.register-section span {
+    font-size: 0.7em;
+    color: #180f15d6;
+}
+
+.register-section ul {
+    list-style: none;
+    margin: 10px 10px 10px 10px;
+}
+
+.register-section ul li {}
+
+.register-section ul li input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    margin-bottom: 3px;
+    margin-left: -15px;
+    text-transform: capitalize;
+    border: 1px solid #ff000021;
+    border-radius: 5px;
+}
+
+.register-section ul li input[type="submit"] {
+    width: 150px;
+    text-transform: uppercase;
+    background-color: #82111c;
+    padding: 10px;
+}
